@@ -26,10 +26,10 @@ const Graph = ({ data }) => {
         options={{
           title: 'Graph',
           hAxis: {
-            title: 'Name',
+            title: 'Value',
           },
           vAxis: {
-            title: 'Value',
+            title: 'Name',
             minValue: 0,
           },
         }}
